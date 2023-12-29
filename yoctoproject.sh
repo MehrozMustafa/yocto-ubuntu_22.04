@@ -2,7 +2,7 @@ sudo apt install gawk wget git diffstat unzip texinfo gcc build-essential chrpat
 sudo locale-gen en_US.UTF-8
 sudo apt build-dep qemu
 sudo apt remove oss4-dev
-sudo apt install make python3-pip inkscape texlive-latex-extra
+sudo apt install htop make python3-pip inkscape texlive-latex-extra
 sudo pip3 install sphinx sphinx_rtd_theme pyyaml
 git clone -b mickledore git://git.yoctoproject.org/poky.git
 cd poky
