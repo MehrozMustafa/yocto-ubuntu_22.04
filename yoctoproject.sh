@@ -7,5 +7,5 @@ sudo pip3 install sphinx sphinx_rtd_theme pyyaml
 git clone -b mickledore git://git.yoctoproject.org/poky.git
 cd poky
 git checkout mickledore
-source oe-init-build-env
-bitbake core-image-minimal -j 4
+#source oe-init-build-env
+#bitbake core-image-minimal -j 4
